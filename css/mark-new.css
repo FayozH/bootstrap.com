@@ -1,0 +1,52 @@
+section{
+    margin: auto;
+    margin: 50px;           
+}
+.pekbank{
+    position: absolute; 
+    margin: 250px 150px;
+    z-index: 5;
+}
+.card{
+    border: none;
+    background-color: rgba(208, 216, 253, 0.089);
+}
+.carrbag{
+    margin: 5px -20px;
+    position: absolute;
+    background-color: rgba(208, 216, 253, 0.575);
+}
+@media only screen and (max-width: 768px) {
+/* For Table phones: */
+[class*="col-"] {
+    width: 100%;
+}
+.carrbag{
+    display: none;
+    background-color: rgba(208, 216, 253, 0.575);
+}
+.asid-boxx{
+    justify-content: center;
+}
+.x-box-link{
+    display: none;
+}
+}
+.just{
+    width: 1120px;
+    margin: 20px 277px;
+}
+.align-items-end {
+    justify-content: center; 
+}
+.card-img-bottom{
+    width: 500px; ;
+    height: 250px; ;
+} 
+.card-body {
+    flex: 1 1 auto;
+    margin-top: 40px;
+}
+.xbaklin{
+    margin-left: 150px;
+}
